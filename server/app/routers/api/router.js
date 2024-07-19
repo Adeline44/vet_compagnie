@@ -1,15 +1,20 @@
-const express = require("express");
+// const express = require('express');
+// const router = express.Router();
 
-const router = express.Router();
+// const { browse, read, insert, destroy, edit } = require('../../animalsControllers.js');
 
-/* ************************************************************************* */
-// Import And Use Routers Here
-/* ************************************************************************* */
+// // Routes de récupération des données
+// router.get('/', browse);
+// router.get('/:id', read);
 
-const itemsRouter = require("./items/router");
+// // Route d'insertion des données
+// router.post('/', insert);
 
-router.use("/items", itemsRouter);
+// // Route de suppression d'une donnée
+// router.delete('/:id', destroy);
 
-/* ************************************************************************* */
+// // Route de mise à jour d'une donnée
+// router.put('/:id', edit);
 
-module.exports = router;
+
+// module.exports = router;
