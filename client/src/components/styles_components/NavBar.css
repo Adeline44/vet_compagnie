@@ -1,0 +1,13 @@
+.navbar-vet {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+
+.texts-navbar {
+  text-decoration: none;
+  font-size: 20px;
+}
